@@ -1,0 +1,81 @@
+https://www.edivaldobrito.com.br/como-instalar-o-instalar-mysql-workbench-no-ubuntu-e-derivados/
+
+
+
+
+
+
+Como instalar o MySQL Workbench no Ubuntu e derivados
+
+
+Se você trabalha com o MySQL e quer usar uma poderosa ferramenta para administrá-lo, veja como o instalar o MySQL Workbench no Ubuntu e derivados.
+
+MySQL Workbench é uma ferramenta gráfica que permite aos usuários facilmente gerenciar e trabalhar com servidores e bancos de dados MySQL.
+
+
+Com o programa, DBAs e desenvolvedores tem um ambiente de ferramentas integradas para modelagem e design de banco de dados, desenvolvimento SQL, administração e migração de banco de dados.
+
+Instalando o MySQL Workbench no Ubuntu e derivados
+
+Para instalar o MySQL Workbench no Ubuntu e derivados, faça o seguinte:
+
+Passo 1. Abra um terminal (Usando o Dash ou pressionando as teclas CTRL+ALT+T);
+Passo 2. Atualize o APT com o comando:
+
+sudo apt-get update
+
+Passo 3. Confira a versão do seu sistema, para isso, use o seguinte comando no terminal:
+
+lsb_release -rs
+
+Passo 4. Se estiver usando Ubuntu 14.04 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-6.2.5-1ubu1404-amd64.deb -O mysql-workbench-community.deb
+
+Passo 5. Se estiver usando Ubuntu 15.10 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.2.5-1ubu1410-amd64.deb -O mysql-workbench-community.deb
+
+Passo 6. Se estiver usando Ubuntu 16.04 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+Advertising
+Advertising
+
+wget http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1ubuntu16.04-amd64.deb -O mysql-workbench-community.deb
+
+Passo 7. Se estiver usando Ubuntu 16.10 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.3.9-1ubuntu16.10-amd64.deb -O mysql-workbench-community.deb
+
+Passo 8. Se estiver usando Ubuntu 17.10 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1ubuntu17.10-amd64.deb -O mysql-workbench-community.deb
+
+Passo 9. Se estiver usando Ubuntu 18.04 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community_8.0.20-1ubuntu18.04_amd64.deb -O mysql-workbench-community.deb
+
+Passo 10. Se estiver usando Ubuntu 20.04 ou compatível, use o comando abaixo para baixar o programa. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve-o com o nome mysql-workbench-community.deb;
+
+wget http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community_8.0.21-1ubuntu20.04_amd64.deb -O mysql-workbench-community.deb
+
+Passo 11. Instale o pacote baixado com o comando a seguir (mesmo que apareça um erro, vá para o próximo passo que ele corrigirá tudo);
+
+sudo dpkg -i mysql-workbench-community.deb
+
+Passo 12. Para instalar as dependências e finalizar a instalação, use o comando:
+Advertising
+Advertising
+
+sudo apt-get -f install
+
+Pronto! Agora, quando quiser iniciar o programa, digite mysql no Dash (ou em um terminal, seguido da tecla TAB).
+Desinstalando o MySQL Workbench no Ubuntu e derivados
+
+Para desinstalar o MySQL Workbench no Ubuntu e derivados, faça o seguinte:
+
+Passo 1. Abra um terminal;
+Passo 2. Desinstale o programa, usando os comandos abaixo;
+
+sudo apt-get remove mysql-workbench-community --auto-remove
+
+
